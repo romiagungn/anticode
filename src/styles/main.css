@@ -1,0 +1,64 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat:600";
+@import "https://use.fontawesome.com/releases/v5.2.0/css/all.css";
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+:root {
+  --main-color: #111;
+  --text-color: #777;
+  --text-color-light: #ccc;
+  --border-color: #eee;
+  --bg-color: #f9f9f9;
+  --neutral-color: #fff;
+}
+
+body {
+  font: normal 16px "Montserrat", sans-serif;
+  padding: 15px;
+  background-attachment: fixed;
+}
+
+button {
+  background: none;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+.header {
+  display: block;
+  width: 100%;
+  padding: 1.25em 0;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--neutral-color);
+}
+
+.header #logo {
+  font-size: 175%;
+  text-align: center;
+  color: var(--main-color);
+  line-height: 1;
+}
+
+.footer {
+  display: block;
+  width: 100%;
+  padding: 1.25em 0;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--neutral-color);
+}
+
+.footer #logo {
+  font-size: 75%;
+  text-align: center;
+  color: var(--main-color);
+  line-height: 1;
+  opacity: 0.5;
+}
